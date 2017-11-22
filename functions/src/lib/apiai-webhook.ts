@@ -1,46 +1,46 @@
 import * as admin from 'firebase-admin';
 import * as functions from 'firebase-functions';
 import { Request, Response } from "express"; //interfaces
-const ActionsSdkApp = require('actions-on-google').ApiAiAssistant;
+const ActionsSdkApp = require('actions-on-google').DialogflowApp;
 
 import db from '../db';
 
 // API.AI Action names
 import {
-    createOrganization,
-    manageOrganization,
-    createTeam,
-    deleteGroup,
-    inputWelcome,
+    activatePackege,
     roman
 } from './actions'
 
-const CREATE_TEAM = 'createTeam';
-const DELETE_GROUP = 'deleteGroup';
-const RENAME_GROUP = 'renameGroup';
-const CHECKIN_GROUP = 'checkInGroup';
-const WELCOME_INTENT = 'input.welcome';
+const ACTIVATE_PACKEGE = 'activatePackege';
 const ROMAN = 'roman'
 
-const CREATE_ORGANIZATION = 'createOrganization';
-const MANAGE_ORGANIZATION = 'manageOrganization';
+export const webhook = functions.https.onRequest(async (request: Request, response: Response) => {
+    // const app = new ActionsSdkApp({ request: request, response: response });
 
-// export const memoryMom = functions.https.onRequest(async (request: Request, response: Response) => {
+    // let actionMap = new Map();
 
-//     console.log("request.body.originalRequest.source.data.user: ", request.body.originalRequest.data.user);
+    // actionMap.set(ACTIVATE_PACKEGE, activatePackege);
+    // actionMap.set(ROMAN, roman)
 
-    
-// })//end of webhook http trigger
+    // app.handleRequest(actionMap);
 
-export const memoryMom = functions.https.onRequest(async (request: Request, response: Response) =>{
-    const app = new ActionsSdkApp({ request: request, response: response });
+    console.log("request.body: ", request.body);
+    console.log("request.body.queryResult: ", request.body.queryResult);
+    console.log("request.body.originalDetectIntentRequest: ", request.body.originalDetectIntentRequest);
 
-    let actionMap = new Map();
-    actionMap.set(CREATE_ORGANIZATION, createOrganization);
-    actionMap.set(MANAGE_ORGANIZATION, manageOrganization);
-    actionMap.set(CREATE_TEAM, createTeam);
-    actionMap.set(DELETE_GROUP, deleteGroup);
-    actionMap.set(WELCOME_INTENT, inputWelcome);
-    actionMap.set(ROMAN, roman)
-    app.handleRequest(actionMap);
+
+    let queryResult = request.body.queryResult;
+
+    switch (queryResult.action) {
+
+        case ACTIVATE_PACKEGE: activatePackege(request, response); break;
+        // case ROMAN: roman(request, response); break;
+
+        default:
+            response.send({
+                "fulfillmentText": "no action matched",
+            })
+            break;
+    }
+
 })

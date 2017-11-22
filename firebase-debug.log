@@ -1,0 +1,57 @@
+[debug] [2017-11-22T16:25:48.607Z] ----------------------------------------------------------------------
+[debug] [2017-11-22T16:25:48.610Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\cypherOS\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy --only functions
+[debug] [2017-11-22T16:25:48.610Z] CLI Version:   3.15.0
+[debug] [2017-11-22T16:25:48.610Z] Platform:      win32
+[debug] [2017-11-22T16:25:48.610Z] Node Version:  v8.9.1
+[debug] [2017-11-22T16:25:48.611Z] Time:          Wed Nov 22 2017 21:25:48 GMT+0500 (Pakistan Standard Time)
+[debug] [2017-11-22T16:25:48.611Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-22T16:25:48.624Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-22T16:25:48.625Z] > authorizing via signed-in user
+[debug] [2017-11-22T16:25:48.628Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/roman-urdu-chatbot-8f348  
+ Wed Nov 22 2017 21:25:48 GMT+0500 (Pakistan Standard Time)
+[debug] [2017-11-22T16:25:50.128Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-22T16:25:50.130Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/roman-urdu-chatbot-8f348/tokens  
+ Wed Nov 22 2017 21:25:50 GMT+0500 (Pakistan Standard Time)
+[debug] [2017-11-22T16:25:51.400Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'roman-urdu-chatbot-8f348'...
+[info] 
+[info] i  deploying functions
+[debug] [2017-11-22T16:25:56.331Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "start": "",
+    "build": "webpack --watch",
+    "deploy": "webpack && firebase deploy --only functions",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.1",
+    "@types/request": "^2.0.3",
+    "actions-on-google": "^1.3.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "firebase-admin": "^4.2.1",
+    "firebase-functions": "^0.5.9",
+    "request": "^2.81.0"
+  },
+  "private": true,
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.4.2",
+    "sinon": "^1.17.7",
+    "ts-loader": "^2.2.2",
+    "typescript": "^2.4.1",
+    "webpack": "^3.0.0",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[info] i  runtimeconfig: ensuring necessary APIs are enabled...
+[debug] [2017-11-22T16:25:56.333Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/roman-urdu-chatbot-8f348?view=CONSUMER_VIEW  
+ Wed Nov 22 2017 21:25:56 GMT+0500 (Pakistan Standard Time)
+[debug] [2017-11-22T16:25:56.333Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/roman-urdu-chatbot-8f348?view=CONSUMER_VIEW  
+ Wed Nov 22 2017 21:25:56 GMT+0500 (Pakistan Standard Time)

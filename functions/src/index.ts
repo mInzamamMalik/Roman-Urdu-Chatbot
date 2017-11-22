@@ -1,4 +1,4 @@
-import * as functions from 'firebase-functions'
 
-import { memoryMom } from './lib/apiai-webhook'
-export { memoryMom }
+
+import { webhook } from './lib/apiai-webhook'
+export { webhook }
