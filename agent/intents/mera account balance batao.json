@@ -1,0 +1,31 @@
+{
+  "id": "fa0d2ae1-31c8-4820-aa2e-f458aa367da9",
+  "name": "mera account balance batao",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "ap k pas is waqt Rs.70.45 baqi hain, is ki meyaad 13 may 2020 tak hai",
+            "ap k account mai Rs.70.45 mojood hain. jis ki meyad 13 may 2020 tak hai"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1511358151,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "value": "1day",
+    "synonyms": [
+      "1day",
+      "one day",
+      "1 din",
+      "aik din",
+      "daily"
+    ]
+  },
+  {
+    "value": "3day",
+    "synonyms": [
+      "3day",
+      "three day",
+      "3 din",
+      "teen din"
+    ]
+  },
+  {
+    "value": "7day",
+    "synonyms": [
+      "7day",
+      "seven day",
+      "7 din",
+      "saat din",
+      "hafta",
+      "aik hafta",
+      "1 haftay"
+    ]
+  },
+  {
+    "value": "30day",
+    "synonyms": [
+      "30day",
+      "thirty day",
+      "30 din",
+      "tees din",
+      "mahina",
+      "aik mahina",
+      "1 mahinay"
+    ]
+  }
+]

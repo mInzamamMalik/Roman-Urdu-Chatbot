@@ -1,0 +1,50 @@
+{
+  "id": "0c801fba-c4df-4677-96d3-c7bef397213d",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "mere pas kitne MB baqi hy"
+            },
+            {
+              "title": "mera curren balance batao"
+            },
+            {
+              "title": "abhi kon sy pkg active hy"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Telenor pakistan mai khushamdeed, mai hon apki personal telenor assistant mai apki kya khidmat kar sakti hon?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "18b2f515-4cc1-4e7a-a076-e0bf7d153830",
+  "name": "abhi kon say packege activate hian?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "koi nhe"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1511359135,
+  "fallbackIntent": false,
+  "events": []
+}

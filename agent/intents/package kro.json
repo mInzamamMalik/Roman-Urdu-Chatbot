@@ -1,0 +1,54 @@
+{
+  "id": "d9dd516c-726a-4b21-894e-dcbbc651ebe0",
+  "name": "package kro",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "activatePackege",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6a39a37b-cdca-462e-9383-b2d727f187af",
+          "required": true,
+          "dataType": "@packege-type",
+          "name": "packegeType",
+          "value": "$packegeType",
+          "isList": false
+        },
+        {
+          "id": "93918d39-e78d-4ea2-8c40-1abba8011230",
+          "required": true,
+          "dataType": "@packege-duration",
+          "name": "packegeDuration",
+          "value": "$packegeDuration",
+          "isList": false
+        },
+        {
+          "id": "cc4f6f0d-da3e-493e-abe3-897c81f3ec80",
+          "required": true,
+          "dataType": "@confirmation",
+          "name": "confirmation",
+          "value": "$confirmation",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "down"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1511368317,
+  "fallbackIntent": false,
+  "events": []
+}

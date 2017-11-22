@@ -1,0 +1,23 @@
+[
+  {
+    "value": "yes",
+    "synonyms": [
+      "yes",
+      "haan",
+      "theek hai",
+      "han kar do"
+    ]
+  },
+  {
+    "value": "no",
+    "synonyms": [
+      "no",
+      "nhe",
+      "galat hai",
+      "nhe karo",
+      "nahi karo",
+      "ni karo",
+      "na karo"
+    ]
+  }
+]

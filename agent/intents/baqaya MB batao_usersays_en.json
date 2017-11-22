@@ -1,0 +1,74 @@
+[
+  {
+    "id": "11a53fc2-7f09-45c5-bbb6-70a4ae86ce2d",
+    "data": [
+      {
+        "text": "kya tm ye bata sakti ho k kitne MB baqi hain",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511358908
+  },
+  {
+    "id": "c6f5460c-a356-4737-a400-e41ef76a5c14",
+    "data": [
+      {
+        "text": "baqaya MB batao",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511358908
+  },
+  {
+    "id": "ce047bc9-6506-420f-8f9f-472e4ad49911",
+    "data": [
+      {
+        "text": "MB batao",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511358908
+  },
+  {
+    "id": "208bfeee-11dd-4568-82f2-3832bd8e6721",
+    "data": [
+      {
+        "text": "data packege mai is waqt kitne MB baqi hain",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511358908
+  },
+  {
+    "id": "214dcdca-482f-4418-b1dc-3cd5ce16a986",
+    "data": [
+      {
+        "text": "kya mere pas koi MB baqi hai?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511358908
+  },
+  {
+    "id": "d052bedd-9266-4d52-9b7f-0e26debfc860",
+    "data": [
+      {
+        "text": "mere pas kitne MB baqi hain",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511358908
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "id": "b27663d1-f18d-471d-aecf-d2636e7f2b8a",
+  "name": "Default Fallback Intent",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "ap ne kya kaha mjhe samaj nhe aya, please dobara kahye",
+            "mai puri koshish kar rahi hon magar mjhe apki baat samaj nhe ayi, kya ap dobara kehna pasand karen gy",
+            "mjhe afsoos hai mjhe abhi bht kch seekhna hai, kya ap asan alfaz mai keh saktay hain mjhe apki baat samaj nhe aa rahi"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

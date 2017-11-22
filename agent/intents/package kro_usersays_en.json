@@ -1,0 +1,270 @@
+[
+  {
+    "id": "633e9ab1-950b-400d-9b75-35f53c93e6f2",
+    "data": [
+      {
+        "text": "han ",
+        "userDefined": false
+      },
+      {
+        "text": "theek hai",
+        "alias": "confirmation",
+        "meta": "@confirmation",
+        "userDefined": false
+      },
+      {
+        "text": " kar do",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "70ebca11-85ec-4047-bf9c-f83c83479f19",
+    "data": [
+      {
+        "text": "yar packege to kar do",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b2ec9797-a3ad-4614-942f-a796224d9f94",
+    "data": [
+      {
+        "text": "mahiney",
+        "alias": "packegeDuration",
+        "meta": "@packege-duration",
+        "userDefined": true
+      },
+      {
+        "text": " wala packdege",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ea4a2650-03eb-40ee-9d17-5b29d69f6f79",
+    "data": [
+      {
+        "text": "saat din",
+        "alias": "packegeDuration",
+        "meta": "@packege-duration",
+        "userDefined": false
+      },
+      {
+        "text": " wala",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "208561fb-8b60-404a-b40a-cba5e61036c6",
+    "data": [
+      {
+        "text": "call",
+        "alias": "packegeType",
+        "meta": "@packege-type",
+        "userDefined": false
+      },
+      {
+        "text": " packege",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "959955f7-7768-4ea5-b937-cbd3282da153",
+    "data": [
+      {
+        "text": "sms",
+        "alias": "packegeType",
+        "meta": "@packege-type",
+        "userDefined": false
+      },
+      {
+        "text": " packege",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "3ab17970-0ab9-4f3b-86e4-3d52169f7043",
+    "data": [
+      {
+        "text": "sms",
+        "alias": "packegeType",
+        "meta": "@packege-type",
+        "userDefined": false
+      },
+      {
+        "text": " packege karo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0069ff1c-db77-45d6-bd88-aa28c4e142e5",
+    "data": [
+      {
+        "text": "packege karo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "86c2af04-5340-4589-af60-90b067f95769",
+    "data": [
+      {
+        "text": "aik ",
+        "userDefined": false
+      },
+      {
+        "text": "mahinay",
+        "alias": "packegeDuration",
+        "meta": "@packege-duration",
+        "userDefined": true
+      },
+      {
+        "text": " k lye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c25ffdf9-0a88-4b47-93ef-4d48ec0966ac",
+    "data": [
+      {
+        "text": "aik ",
+        "userDefined": false
+      },
+      {
+        "text": "haftay",
+        "alias": "packegeDuration",
+        "meta": "@packege-duration",
+        "userDefined": true
+      },
+      {
+        "text": " k lye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "03c27146-8a6d-46f2-a7ec-709bc1ce9d40",
+    "data": [
+      {
+        "text": "package kro",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511368317
+  },
+  {
+    "id": "6befcbb5-9992-4219-9f30-1b1840bb8611",
+    "data": [
+      {
+        "text": "package to ",
+        "userDefined": false
+      },
+      {
+        "text": "karna",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " yar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511368317
+  },
+  {
+    "id": "08b3cb8e-0aed-4487-8c1f-ae99705baeae",
+    "data": [
+      {
+        "text": "mai package activate karna chahta hon",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511368317
+  },
+  {
+    "id": "1a1af65a-255c-4990-b53f-e2976ef7fb11",
+    "data": [
+      {
+        "text": "mai ",
+        "userDefined": false
+      },
+      {
+        "text": "sms",
+        "alias": "packegeType",
+        "meta": "@packege-type",
+        "userDefined": true
+      },
+      {
+        "text": " package activate ",
+        "userDefined": false
+      },
+      {
+        "text": "karna",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " chahta hon",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511368317
+  },
+  {
+    "id": "fe43454f-0893-4e61-9569-43e595b18102",
+    "data": [
+      {
+        "text": "mai ",
+        "userDefined": false
+      },
+      {
+        "text": "call",
+        "alias": "packegeType",
+        "meta": "@packege-type",
+        "userDefined": true
+      },
+      {
+        "text": " package activate karna chahta hon",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1511368317
+  }
+]

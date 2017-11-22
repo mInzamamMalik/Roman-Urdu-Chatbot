@@ -1,0 +1,16 @@
+[
+  {
+    "value": "call",
+    "synonyms": [
+      "call",
+      "voice"
+    ]
+  },
+  {
+    "value": "sms",
+    "synonyms": [
+      "sms",
+      "text"
+    ]
+  }
+]

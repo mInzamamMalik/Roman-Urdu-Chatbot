@@ -1,0 +1,28 @@
+{
+  "id": "5142417d-0bfd-46a4-88ef-28ec7860b45d",
+  "name": "baqaya MB batao",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1511358908,
+  "fallbackIntent": false,
+  "events": []
+}
